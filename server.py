@@ -88,7 +88,7 @@ def gameLoop(sock):
          pktID = pktID +1
       time.sleep(1)
 
-def main(): grsgs
+def main():
    port = 12345
    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
    s.bind(('', port))
